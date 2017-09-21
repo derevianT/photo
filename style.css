@@ -1,0 +1,201 @@
+*{
+margin:0;
+padding:0;
+}
+ul{
+list-style:none;
+}
+a{
+text-decoration:none;
+}
+body{
+	font:12px Arial, sans-serif;
+}
+
+.header{
+	background:#191919;
+}
+.wrapper{
+	width:820px;
+	margin:0 auto;
+}
+header{
+	padding:25px 0 20px 0;
+}
+.sign{
+	float:right;
+}
+.sign li{
+	float: left;
+}
+.head{
+	font-size:11px;
+	font-style: italic;
+	font-weight:  bold;
+	color:#4c4c4c;
+	padding:13px 0 9px 0;
+}
+.head span{
+	color:#8c8c8c;
+}
+.sign button{
+	padding:9px 40px 9px 32px;
+	border-radius:2px;
+	background: #373737;
+	color:#a8bf1e;
+	font-size:12px;
+	font-weight: bold;
+	border:none;
+	margin-left: 15px;
+}
+
+.nav-block{
+	background: url(img/bg-nav.jpg) repeat-x 0 0;
+	
+}
+nav ul li{
+	float:left;
+}
+nav ul li a{
+	margin:19px 28px 19px 0;
+	padding:7px 21px;
+	display:block;
+	text-transform:uppercase;
+	font-weight: bold;
+	color:#ffffff;
+}
+nav ul li a:hover{
+	background:#8aa014;
+	border-radius:7px;
+}
+.img{
+	float:left;
+	margin:37px 16px 0 0;
+}
+.descr{
+	float:right;
+	margin-top: 74px;
+}
+.descr h1{
+	font-size:22px;
+	font-weight: bold;
+	color:#113848;
+	padding-bottom: 19px;
+	background:url(img/bg-h1.jpg) repeat-x 0 100%;
+	letter-spacing:1px;
+}
+.descr p{
+	font-size: 14px;
+	line-height:19px;
+	color:#353535;
+	padding-top: 19px;
+}
+
+.main-block{
+	background:url(img/bg-main.jpg) repeat-x 0 0;
+	
+}
+.section{
+	display:inline-block;
+	background:url(img/bg-sect.jpg) repeat-x 0 100%;
+}
+.section li{
+	display:block;
+	float:left;
+	width: 225px;
+	margin:45px 72px 35px 0;
+}
+.section li:last-child{
+	margin-right:0;
+}
+.section li img{
+	float:left;
+	margin-right: 14px;
+}
+.main h2{
+	font-size: 20px;
+	font-weight: bold;
+	color:#404040;
+}
+p.cours{
+	color:#707070;
+	font-size:14px;
+	font-weight: bold;
+}
+p.details{
+	line-height:21px;
+	margin:21px 0 16px 0;
+}
+a.read-more{
+	float:right;
+	color:#b4cd22;
+}
+
+.about li{
+	float: left;
+	width: 410px;
+	margin: 26px 5px 28px 0;
+}
+.about li.us{
+	width: 380px;
+	margin: 26px 0 28px 0;
+}
+.about h3{
+	font-size:16px;
+	font-weight: bold;
+	color:#404040;
+	margin: 26px 5px 28px 0;
+}
+.about img{
+	border-style: solid;
+border-image-width: 4px;
+border-image-source: url(img/border.jpg);
+border-image-slice: 30;
+border-image-repeat: round;
+}
+.about p{
+	color:#505050;
+	line-height:21px;
+}
+
+.footer-block{
+	background:#191919;
+}
+
+.f-li li{
+	float:left;
+	margin:30px 0;
+	margin-right: 20px;
+}
+
+.f-li p,.f-nav a{
+	font-size:10px;
+	font-weight: bold;
+	color:#4b4b4b;
+}
+.f-nav{
+	float:right;
+}
+.f-nav li{
+	float:left;
+	margin:30px 0 30px 10px;
+}
+.f-nav a{
+	text-transform:uppercase;
+	
+}
+/*CLEARFIX*/
+header:after,
+nav:after,
+.content:after,
+.img:after,
+.descr:after,
+.main:after,
+.about:after,
+footer:after
+
+{
+	content:'';			/*для того чтоб li вжались в положеную область*/
+	display:table;
+	clear:both;
+}
